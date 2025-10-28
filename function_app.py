@@ -18,11 +18,11 @@ def HttpTriggerFunction(req: func.HttpRequest) -> func.HttpResponse:
 
     if name:
         return func.HttpResponse(
-            f"Hello, {name}. This HTTP triggered function executed successfully.",
+            f"Hello, {name}! 🎉 Auto-deployment from GitHub is working perfectly!",  # ← CHANGED THIS LINE
             status_code=200
         )
     else:
         return func.HttpResponse(
-            "Please pass a name on the query string or in the request body",
+            "Please pass a name on the query string or in the request body to test auto-deployment!",  # ← CHANGED THIS LINE
             status_code=400
         )
