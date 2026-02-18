@@ -1,1 +1,1 @@
-#practicing azure funciton.
+#practicing azure funciton
